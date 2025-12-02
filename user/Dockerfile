@@ -8,3 +8,4 @@ ENV MONGO="true"\
     REDIS_URL="redis://redis:6379" \
     MONGO_URL="mondodb://mongodb:27017/users"
 CMD ["node", "server.js"]    
+CMD ["SLEEP", "100"]
