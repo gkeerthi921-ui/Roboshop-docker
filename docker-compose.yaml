@@ -1,7 +1,7 @@
 services:
   mongodb:
      image: mongodb:v1
-     container_ name: mongodb
+    # container_ name: mongodb
 networks:
  default:
     driver: bridge
