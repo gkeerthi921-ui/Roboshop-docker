@@ -1,8 +1,9 @@
 services:
   mongodb:
      image: mongodb:v1
+     container_ name: mongodb
 networks:
-    default:
+ default:
     driver: bridge
     name: roboshop
     external: false
